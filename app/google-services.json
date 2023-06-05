@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "497181386427",
+    "project_id": "dad-s-movie",
+    "storage_bucket": "dad-s-movie.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:497181386427:android:fa01c2238f005fedfeab9e",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "497181386427-d2rgi2khhi1d6620s8feuac03v5ttob7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2ZJPH8_JLHHA3O3LWhTerZl7IFEsuMHc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "497181386427-d2rgi2khhi1d6620s8feuac03v5ttob7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

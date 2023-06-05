@@ -1,0 +1,74 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black2"
+    android:id="@+id/scrollView"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/relativeLayout"
+        android:layout_height="wrap_content">
+
+        <!-- Search and button layout -->
+      <androidx.appcompat.widget.SearchView
+            android:id="@+id/simpleSearchView"
+             app:queryHint="חפש סרט.."
+          android:textColorHint="@color/black"
+            android:background="@drawable/bg_white_rounded"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+        <LinearLayout
+            android:id="@+id/watchedLayout"
+            android:layout_below="@id/simpleSearchView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/counter_movies_watched"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="המשך צפייה (0)"
+                android:textColor="@color/white"
+                android:layout_marginEnd="35dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="20sp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/watchedRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_below="@id/watchedLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/counter_movies"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="כל הסרטים (0)"
+                android:textColor="@color/white"
+                android:layout_marginEnd="35dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="20sp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
