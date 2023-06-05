@@ -17,7 +17,7 @@ Dad's Movies is a TV app that allows you to explore a curated list of movies.  <
 
  <br/>
  <br/>
-#This app was developed by Ben Alon
+##-This app was developed by Ben Alon--##
  <br/>
  <br/>
  # Screenshots
